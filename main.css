@@ -19,9 +19,9 @@ position:relative;}
 
 
 body {
-background: #ffffff url("orchid.png")
-no-repeat top left;
-position:relative
+background: #ffffff url("orchid.png");
+background-repeat: no-repeat top left;
+background-attachment: fixed;
 }
 
 p {text-align: relative;
