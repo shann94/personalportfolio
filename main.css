@@ -1,26 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
 @import url(https://fonts.googleapis.com/css?family=News+Cycle);
 
-blockquote {
- float: right;
- width: 30%;
- font-size: 131%;
- font-style: italic;
- font-family: 'Playfair Display', serif;
- margin: 0px 0px 10px 10px;
- padding: 10px;
- border-top: 1px solid #665544;
- border-bottom: 1px solid #665544;
-position:relative;}
+.quote{font-size: 131%;
+font-style: italic;
+font-family: 'Playfair Display', serif;
+margin: 0px 0px 10px 10px;
+padding: 10px;
+border-top: 1px solid #665544;
+border-bottom: 1px solid #665544;}
 
+img {
+margin: 0 auto;
+}
+
+
+nav {text-align: center;}
 
 body {
-background: #ffffff url("orchid.png");
-background-repeat: no-repeat top left;
+background: #ffffff url("hokiestone.jpg");
+background-repeat: repeat;
 background-attachment: fixed;
 }
 
@@ -53,11 +53,12 @@ top: -20px;}
 h1 {
 text-align: center;
 font-size: 400%;
-font-family: 'Dancing Script', cursive;}
+font-family: 'Dancing Script', cursive;
+color: black;}
 
 
 body {
-background-color: thistle;
+background-color: orange;
 margin: 0px 50px 0px 50px;
 border-color: seashell;
 height: 100%;
@@ -77,11 +78,6 @@ margin: auto;
 padding: 10px;
 position:relative;}
 
-#box {height: 30%;
-width: 65%;
-background-color: seashell;
-position:relative;}
-
 #body
 {background-color: seashell;
   padding: 20px 4px 20px 0px;
@@ -98,7 +94,8 @@ position:relative;}
 position:relative;}
 
 .design {border:1px solid #021a40;
-margin-right: 10px;}
+margin-right: 10px;
+text-align: center;}
 
 .homepage {position: relative;}
 
@@ -108,11 +105,16 @@ font-family: 'Amatic SC', cursive;
 font-size: 200%;
 padding-left: 30px}
 
+
 h4 {
 position: relative;
 font-family: 'Playfair Display', serif;
 font-size: 130%;
-padding-left: 30px}
+padding-left: 30px;
+text-transform: uppercase;
+font-size: 1em;
+font-weight: 400;
+letter-spacing: 1px;}
 
 li {
 margin: 10px 0px 0px 0px;}
@@ -126,19 +128,15 @@ position: relative;
 font-family: 'News Cycle', sans-serif;}
 
 a:link {font-family: 'Open Sans Condensed', sans-serif;
-color: darkmagenta;
+color: maroon;
 text-decoration: none}
 
-a:visited {color: darkmagenta;}
+a:visited {color: maroon;}
 
-a:hover {color: thistle;}
+a:hover {color: orange;}
 
-
- td {padding-left: 10px;
- padding-bottom: 20px;
- padding-right: 20px;
- font-family: 'News Cycle', sans-serif;
-}
-
- th {padding-left: 30px;
- font-family: 'News Cycle', sans-serif;}
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;}
